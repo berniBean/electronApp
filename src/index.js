@@ -1,5 +1,5 @@
-const {createWindow} = require('./main')
+const {crateWindow} = require('./main')
 const {app} = require('electron')
 
-app.whenReady().then(createWindow);
+app.whenReady().then(crateWindow);
 
